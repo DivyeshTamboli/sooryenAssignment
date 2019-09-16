@@ -1,0 +1,28 @@
+.title:hover {
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    cursor: pointer
+  }
+
+  
+  .hidden{
+
+    display: none;
+
+  }
+
+  .add-button{
+      margin-bottom: 10px;
+  }
+
+  .vl {
+    border-left: 1px solid lightgrey;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top: 4.1%; 
+    margin-left: -20%;
+    top: 0;
+  }
