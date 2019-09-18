@@ -32,7 +32,7 @@ class AllNotes extends Component {
         <div class="row" key={index}>
           <div class="col">
             <h5>
-              <span class="title"><b>{note.title}</b></span>
+              <span class="title notes"><b>{note.title}</b></span>
               <span class="float-right close" onClick={() => this.removeNote(index)}><i class="fas fa-times"></i></span>
               <span class="float-right close" onClick={() => this.editNote(index, note)}><i class="fas fa-edit"></i>
               </span>
@@ -40,7 +40,7 @@ class AllNotes extends Component {
           </div>
         </div>
         <div class="row">
-          <div class="col">{note.content}</div>
+          <div class="col notes">{note.content}</div>
         </div>
         <hr />
       </div>
